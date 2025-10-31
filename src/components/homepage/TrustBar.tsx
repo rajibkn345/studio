@@ -7,18 +7,6 @@ const logos = [
         width: 100,
         height: 100,
     },
-    {
-        name: 'Chick-fil-A',
-        url: 'https://storage.googleapis.com/project-spark-b2481-avatars/2fe55a30-22c6-4335-859a-a3095315843a.svg',
-        width: 160,
-        height: 48,
-    },
-    {
-        name: 'Wingstop',
-        url: 'https://storage.googleapis.com/project-spark-b2481-avatars/b3017f41-38a3-4853-b184-486110f64c67.svg',
-        width: 120,
-        height: 48,
-    },
 ];
 
 export function TrustBar() {
