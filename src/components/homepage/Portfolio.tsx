@@ -15,12 +15,6 @@ const portfolioItems = [
     caseStudyUrl: '#success-story',
   },
   {
-    id: 'portfolio-2',
-    title: 'Gourmet Innovations',
-    category: 'Fine Dining',
-    stats: ['+60% Online Orders', 'Michelin Star Recipient', 'Tech-Enabled Kitchens'],
-  },
-  {
     id: 'portfolio-3',
     title: 'ConnectSphere Tech',
     category: 'SaaS',
