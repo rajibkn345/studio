@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Compass, ShieldCheck, Cpu, Handshake, BarChart } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { TrustBar } from '@/components/homepage/TrustBar';
 
 const principles = [
   {
@@ -48,7 +47,6 @@ export function AboutPreview() {
             <div className="text-center md:text-left">
                 <h2 className="text-3xl md:text-4xl font-bold text-primary">A leadership team with experience from world-class brands</h2>
             </div>
-            <TrustBar />
             <div className="space-y-3">
               <h2 className="text-3xl md:text-4xl font-bold text-primary">Our Mission</h2>
               <p className="text-lg text-muted-foreground">
