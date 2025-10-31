@@ -14,12 +14,6 @@ const portfolioItems = [
     stats: ['+13.4% Same-Store Sales', '50% Lower Staff Turnover', 'Top 1% in Order Accuracy'],
     caseStudyUrl: '#success-story',
   },
-  {
-    id: 'portfolio-3',
-    title: 'ConnectSphere Tech',
-    category: 'SaaS',
-    stats: ['10x User Acquisition', 'AI-Powered Platform', 'Global Expansion'],
-  },
 ];
 
 export function Portfolio() {
@@ -45,7 +39,7 @@ export function Portfolio() {
               const CardLinkWrapper = item.caseStudyUrl ? Link : 'div';
               
               return (
-                <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/2">
                   <div className="p-1 h-full">
                     <CardLinkWrapper href={item.caseStudyUrl || ''} className="h-full block">
                       <Card className="h-full flex flex-col overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
