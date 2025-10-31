@@ -25,19 +25,19 @@ export const teamMembers = [
         imageHint: 'man professional'
     },
     {
-        id: 'team-member-7',
-        name: 'Michael Auzenne',
-        title: 'Senior Advisor, Governance & Strategy',
-        bio: "Mike brings a powerful combination of analytical rigor, investment expertise, and brand experience to RTG Investments. With 15+ years across investment banking and global restaurant leadership, he guides RTG’s approach to identifying and elevating high-potential hospitality brands. He holds an MBA from Harvard Business School.",
-        imageUrl: 'https://storage.googleapis.com/project-spark-b2481-avatars/402d3345-42f5-4a5c-897b-944357064ad7.jpeg',
-        imageHint: 'man professional'
-    },
-    {
         id: 'team-member-16',
         name: 'Darryl Lesure',
         title: 'Senior Advisor, Supply Chain & Procurement',
         bio: 'a seasoned hospitality and supply chain professional with over 35 years of experience in Atlanta. A graduate of Morris Brown College and Central Michigan University, he spent nearly 25 years with Chick-fil-A, Inc., where he led global apparel strategy and corporate relations.\n\nCurrently serving as General Manager of FORTH CLUB at the FORTH Hotel, Darryl drives culture, staff engagement, and exceptional member experiences. As founder of That Part Styling, LLC, he consults internationally with boutique retailers and hospitality brands, blending fashion, culture, and storytelling as a self-described “Style Anthropologist.”\n\nActive in Atlanta’s community, Darryl contributes to the Atlanta Journal-Constitution’s UATL Style Guide and serves on the boards of Bearings Bike Works, Theatrical Outfit, and the Atlanta Area Council of the Boy Scouts of America. A proud member of Alpha Phi Alpha Fraternity, Inc., he resides in historic Reynoldstown and is the father of Vanessa, a law student at NCCU, and Evan, an undergraduate at FAMU',
         imageUrl: 'https://storage.googleapis.com/project-spark-b2481-avatars/b5f39151-5121-4f11-857c-2b28c8942b26.jpeg',
+        imageHint: 'man professional'
+    },
+    {
+        id: 'team-member-7',
+        name: 'Michael Auzenne',
+        title: 'Senior Advisor, Governance & Strategy',
+        bio: "Mike brings a powerful combination of analytical rigor, investment expertise, and brand experience to RTG Investments. With 15+ years across investment banking and global restaurant leadership, he guides RTG’s approach to identifying and elevating high-potential hospitality brands. He holds an MBA from Harvard Business School.",
+        imageUrl: 'https://storage.googleapis.com/project-spark-b2481-avatars/402d3345-42f5-4a5c-897b-944357064ad7.jpeg',
         imageHint: 'man professional'
     },
     {
@@ -51,7 +51,7 @@ export const teamMembers = [
     {
         id: 'team-member-18',
         name: 'Sean Palani',
-        title: 'Advisor and Lead Generation Brand and Culinary Partnerships',
+        title: 'Senior Advisor, Brand and Culinary Partnerships',
         bio: 'Sean specializes in lead generation and fostering brand and culinary partnerships. His expertise helps connect RTG with new opportunities and drive growth through strategic alliances.',
         imageUrl: 'https://picsum.photos/seed/sean/400/400',
         imageHint: 'man professional'
