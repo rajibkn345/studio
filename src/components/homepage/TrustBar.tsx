@@ -10,6 +10,7 @@ const logos = [
   { name: 'Chili\'s', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/22c9535e-c22f-4a37-b4d2-f673a5a76985.svg' },
   { name: 'Sbarro', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/8f0d5111-1373-4553-9f20-f5979f40398f.svg' },
   { name: 'Taco Bell', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/33827456-e910-482e-9189-253a6d71b315.svg' },
+  { name: 'Burger King', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/3b018b32-9887-433b-a28a-784033092283.svg' },
 ];
 
 export function TrustBar() {
