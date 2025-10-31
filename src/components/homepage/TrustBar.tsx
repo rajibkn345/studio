@@ -17,6 +17,7 @@ const logos = [
   { name: 'The Real Chow Baby', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/19f01509-3853-417d-81e0-b6edc6c64264.png'},
   { name: 'Georgia Aquarium', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/a8947672-03f4-43b3-851c-8067a31518f8.svg' },
   { name: 'Sodexo', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/a689f743-3b32-487a-8533-33434680d2f8.svg' },
+  { name: 'Levy Restaurants', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/b442145c-2d57-4148-84e0-a337e6512391.svg' },
 ];
 
 export function TrustBar() {
