@@ -16,6 +16,7 @@ const logos = [
   { name: 'HMS Host', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/6590f7d5-d020-431f-b565-5b4d758f5c49.svg' },
   { name: 'The Real Chow Baby', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/19f01509-3853-417d-81e0-b6edc6c64264.png'},
   { name: 'Georgia Aquarium', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/a8947672-03f4-43b3-851c-8067a31518f8.svg' },
+  { name: 'Sodexo', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/a689f743-3b32-487a-8533-33434680d2f8.svg' },
 ];
 
 export function TrustBar() {
