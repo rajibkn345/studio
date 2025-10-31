@@ -14,6 +14,12 @@ const teamMembers = [
     id: 'team-member-4',
   },
   {
+    name: 'Joseph H. Handy',
+    title: 'Chief Development Officer',
+    bio: 'Joe is an accomplished executive with over two decades of experience driving growth and fundraising across high-profile organizations. As Chief Development Officer, he leads strategic development, brand expansion, and partner relations, guiding the company’s growth through innovation and a deep commitment to community impact.',
+    id: 'team-member-5',
+  },
+  {
     name: 'Sarah Chen',
     title: 'CEO & Founder',
     bio: 'With over two decades in hospitality, Sarah is a visionary leader dedicated to innovation and guest satisfaction. Her experience at a Fortune 500 hotel chain honed her skills in scaling operations while maintaining a people-first culture, a philosophy she embeds in every RTG venture.',
@@ -43,7 +49,7 @@ export function TeamShowcase() {
             A team of industry veterans dedicated to your success.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {teamMembers.map((member) => {
             const memberImage = PlaceHolderImages.find((img) => img.id === member.id);
             return (
