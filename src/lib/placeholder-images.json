@@ -1,3 +1,70 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Background image for the hero section showing a modern office meeting.",
+      "imageUrl": "https://images.unsplash.com/photo-1623177623442-979c1e42c255?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBvZmZpY2V8ZW58MHx8fHwxNzYxNzg0NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "about-preview",
+      "description": "Image for the about preview section, showing professionals in a discussion.",
+      "imageUrl": "https://images.unsplash.com/photo-1688380692117-63178554d76d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidXNpbmVzcyUyMG1lZXRpbmd8ZW58MHx8fHwxNzYxODM4MzI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business meeting"
+    },
+    {
+      "id": "portfolio-1",
+      "description": "Image for the first portfolio item, a luxury hotel interior.",
+      "imageUrl": "https://images.unsplash.com/photo-1621293954908-907159247fc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3NjE4Njk5NDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "luxury hotel"
+    },
+    {
+      "id": "portfolio-2",
+      "description": "Image for the second portfolio item, a modern restaurant.",
+      "imageUrl": "https://images.unsplash.com/photo-1685040235380-a42a129ade4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb2Rlcm4lMjByZXN0YXVyYW50fGVufDB8fHx8MTc2MTc3NDE3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern restaurant"
+    },
+    {
+      "id": "portfolio-3",
+      "description": "Image for the third portfolio item, a tech startup office.",
+      "imageUrl": "https://images.unsplash.com/photo-1594235048794-fae8583a5af5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0ZWNoJTIwb2ZmaWNlfGVufDB8fHx8MTc2MTc4OTE3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech office"
+    },
+    {
+      "id": "portfolio-4",
+      "description": "Image for the fourth portfolio item, a boutique coffee shop.",
+      "imageUrl": "https://images.unsplash.com/photo-1534040385115-33dcb3acba5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29mZmVlJTIwc2hvcHxlbnwwfHx8fDE3NjE4MzQwNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee shop"
+    },
+    {
+      "id": "franchise-spotlight",
+      "description": "Image for the franchise spotlight section, showing a successful franchise storefront.",
+      "imageUrl": "https://images.unsplash.com/photo-1542581482-851c38ee4b94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdG9yZSUyMGZyb250fGVufDB8fHx8MTc2MTgxODIwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "store front"
+    },
+    {
+      "id": "leadership-preview",
+      "description": "Image of the leadership team for the preview section.",
+      "imageUrl": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxidXNpbmVzcyUyMHRlYW18ZW58MHx8fHwxNzYxODQ4MTQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business team"
+    },
+    {
+      "id": "team-member-1",
+      "description": "Portrait of team member Sarah Chen.",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MTgwMzQ2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "team-member-2",
+      "description": "Portrait of team member David Lee.",
+      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjE3NTYzNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "team-member-3",
+      "description": "Portrait of team member Maria Rodriguez.",
+      "imageUrl": "https://images.unsplash.com/photo-1573496527892-904f897eb744?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjE4MDY5MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman professional"
+    }
+  ]
 }
