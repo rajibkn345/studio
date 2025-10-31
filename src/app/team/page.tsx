@@ -79,7 +79,7 @@ export default function TeamPage() {
            return (
             <div key={member.name} className="text-center">
                 {memberImage && (
-                    <div className="mb-4 relative aspect-square overflow-hidden">
+                    <div className="mb-4 relative aspect-square overflow-hidden rounded-md shadow-lg">
                         <Image
                             src={memberImage.imageUrl}
                             alt={`Portrait of ${member.name}`}
