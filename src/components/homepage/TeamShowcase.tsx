@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -5,6 +6,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { useState } from 'react';
 
 const teamMembers = [
   {
@@ -64,7 +66,7 @@ export function TeamShowcase() {
         <div className="text-center mt-12">
           <Button asChild size="lg">
             <Link href="/team">
-              Use Our Bio Generator
+              Meet the Full Team
               <ArrowRight className="ml-2" />
             </Link>
           </Button>
