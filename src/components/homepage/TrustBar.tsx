@@ -11,6 +11,7 @@ const logos = [
   { name: 'Sbarro', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/8f0d5111-1373-4553-9f20-f5979f40398f.svg' },
   { name: 'Taco Bell', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/33827456-e910-482e-9189-253a6d71b315.svg' },
   { name: 'Burger King', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/3b018b32-9887-433b-a28a-784033092283.svg' },
+  { name: 'Au Bon Pain', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/61b36a14-41e9-4e78-958a-3603417726f5.svg' },
 ];
 
 export function TrustBar() {
