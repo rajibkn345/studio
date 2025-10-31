@@ -27,7 +27,7 @@ const formSchema = z.object({
 });
 
 const initialTeamMembers = [
-  { name: 'Chip Joyner', title: 'CEO & Founder', previousExperience: '15+ years in restaurant leadership, scaled portfolios over $60M.', education: 'Harvard Business School OPM Program' },
+  { name: 'Chip Joyner', title: 'Managing Partner and Founder', previousExperience: '15+ years in restaurant leadership, scaled portfolios over $60M.', education: 'Harvard Business School OPM Program' },
   { name: 'Joseph H. Handy', title: 'Chief Development Officer & Founder', previousExperience: '20+ years executive leadership, raised over $120M, former CEO of Georgia Aquarium.', education: 'Attended University of Louisville' },
   { name: 'Derrick Johnson', title: 'Chief Technology & Operations Director', previousExperience: '15+ years in franchise operations (Cinnaholic, Levy Restaurants), tech integration expert.', education: 'University of Tennessee at Chattanooga' },
   { name: 'Michael Auzenne', title: 'Chief Investment Advisor & Member Experience', previousExperience: '15+ years in investment banking, management consulting, and global restaurant leadership.', education: 'Harvard Business School MBA' },

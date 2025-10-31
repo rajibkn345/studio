@@ -9,7 +9,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 const teamMembers = [
   {
     name: 'Chip Joyner',
-    title: 'CEO & Founder',
+    title: 'Managing Partner and Founder',
     bio: 'Chip is an accomplished restaurant and QSR executive with 15+ years of leadership in multi-unit operations and growth strategy. He leads the firm’s mission to acquire and elevate great hospitality brands through technology and operational excellence. A graduate of Harvard Business School\'s OPM program, Chip previously gained deep operational DNA with brands like Chick-fil-A and Starbucks, scaling portfolios exceeding $60 million in annual revenue.',
     id: 'team-member-4',
   },

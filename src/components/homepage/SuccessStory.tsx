@@ -131,7 +131,7 @@ export function SuccessStory() {
                     <blockquote className="border-l-4 border-primary pl-4 italic text-foreground">
                         “We don’t just invest in brands — we invest in people, process, and performance. Client results prove that with the right systems and culture, operational excellence becomes a competitive advantage.”
                     </blockquote>
-                    <p className="text-right mt-4 font-semibold">— Chip Joyner, CEO & Founder, RTG Resto Tech Group</p>
+                    <p className="text-right mt-4 font-semibold">— Chip Joyner, Managing Partner and Founder, RTG Resto Tech Group</p>
                 </CardContent>
             </Card>
         </div>
