@@ -13,6 +13,7 @@ const logos = [
   { name: 'Taco Bell', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/33827456-e910-482e-9189-253a6d71b315.svg' },
   { name: 'Burger King', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/3b018b32-9887-433b-a28a-784033092283.svg' },
   { name: 'Au Bon Pain', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/61b36a14-41e9-4e78-958a-3603417726f5.svg' },
+  { name: 'HMS Host', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/6590f7d5-d020-431f-b565-5b4d758f5c49.svg' },
 ];
 
 export function TrustBar() {
