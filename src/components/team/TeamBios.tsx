@@ -68,10 +68,13 @@ export function TeamBios() {
     });
   }
 
-  const teamMemberImages = {
-    'Sarah Chen': PlaceHolderImages.find(img => img.id === 'team-member-1'),
-    'David Lee': PlaceHolderImages.find(img => img.id === 'team-member-2'),
-    'Maria Rodriguez': PlaceHolderImages.find(img => img.id === 'team-member-3'),
+  const getImageUrlForTeamMember = (name: string) => {
+    const staticImages: {[key: string]: string | undefined} = {
+      'Sarah Chen': PlaceHolderImages.find(img => img.id === 'team-member-1')?.imageUrl,
+      'David Lee': PlaceHolderImages.find(img => img.id === 'team-member-2')?.imageUrl,
+      'Maria Rodriguez': PlaceHolderImages.find(img => img.id === 'team-member-3')?.imageUrl,
+    };
+    return staticImages[name] || `https://picsum.photos/seed/${name.replace(/\s/g, '-')}/200/200`;
   };
 
   return (
@@ -146,16 +149,14 @@ export function TeamBios() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {generatedBios.map((memberBio) => {
                     const memberDetails = form.getValues().teamMemberDetails.find(m => m.name === memberBio.name);
-                    const image = (teamMemberImages as any)[memberBio.name];
+                    const imageUrl = getImageUrlForTeamMember(memberBio.name);
                     return (
                         <Card key={memberBio.name} className="flex flex-col text-center items-center">
                             <CardHeader>
-                                {image && 
-                                    <Avatar className="h-24 w-24 mb-4">
-                                        <AvatarImage src={image.imageUrl} alt={memberBio.name} />
-                                        <AvatarFallback>{memberBio.name.charAt(0)}</AvatarFallback>
-                                    </Avatar>
-                                }
+                                <Avatar className="h-24 w-24 mb-4">
+                                    <AvatarImage src={imageUrl} alt={memberBio.name} />
+                                    <AvatarFallback>{memberBio.name.charAt(0)}</AvatarFallback>
+                                </Avatar>
                                 <CardTitle>{memberBio.name}</CardTitle>
                                 <CardDescription>{memberDetails?.title}</CardDescription>
                             </CardHeader>
