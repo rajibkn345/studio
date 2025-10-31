@@ -100,7 +100,7 @@ export const teamMembers = [
         id: 'team-member-16',
         name: 'Daryl Lesure',
         title: 'Senior Advisor, Supply Chain & Procurement',
-        bio: 'Daryl brings over 20 years of supply chain leadership in the restaurant industry, specializing in procurement, logistics, and cost optimization for multi-unit brands.',
+        bio: 'a seasoned hospitality and supply chain professional with over 35 years of experience in Atlanta. A graduate of Morris Brown College and Central Michigan University, he spent nearly 25 years with Chick-fil-A, Inc., where he led global apparel strategy and corporate relations.\n\nCurrently serving as General Manager of FORTH CLUB at the FORTH Hotel, Darryl drives culture, staff engagement, and exceptional member experiences. As founder of That Part Styling, LLC, he consults internationally with boutique retailers and hospitality brands, blending fashion, culture, and storytelling as a self-described “Style Anthropologist.”\n\nActive in Atlanta’s community, Darryl contributes to the Atlanta Journal-Constitution’s UATL Style Guide and serves on the boards of Bearings Bike Works, Theatrical Outfit, and the Atlanta Area Council of the Boy Scouts of America. A proud member of Alpha Phi Alpha Fraternity, Inc., he resides in historic Reynoldstown and is the father of Vanessa, a law student at NCCU, and Evan, an undergraduate at FAMU',
         imageUrl: 'https://picsum.photos/seed/16/400/400',
         imageHint: 'man professional'
     },
