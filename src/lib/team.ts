@@ -3,7 +3,7 @@ export const teamMembers = [
     {
         id: 'team-member-4',
         name: 'Chip Joyner',
-        title: 'Managing Partner',
+        title: 'Founder and Managing Partner',
         bio: "A graduate of Howard University, Chip is an accomplished restaurant and QSR executive with 15+ years of leadership in multi-unit operations and growth strategy. He leads the firm’s mission to acquire and elevate great hospitality brands through technology and operational excellence. and Harvard Business School's OPM program, Chip previously gained deep operational DNA with brands like Chick-fil-A and Starbucks, scaling portfolios exceeding $60 million in annual revenue.",
         imageUrl: 'https://storage.googleapis.com/project-spark-b2481-avatars/7141f0f4-5f5f-4a0b-871d-f8f411b9a9d7.jpeg',
         imageHint: 'man professional'
