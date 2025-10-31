@@ -8,6 +8,12 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 const teamMembers = [
   {
+    name: 'Chip Joyner',
+    title: 'CEO & Founder',
+    bio: 'Chip is an accomplished restaurant and QSR executive with 15+ years of leadership in multi-unit operations and growth strategy. As Founder and CEO, he leads the firm’s mission to acquire and elevate great hospitality brands through technology and operational excellence. Before RTG, Chip gained deep operational DNA with brands like Chick-fil-A and Starbucks, scaling portfolios exceeding $60 million in annual revenue.',
+    id: 'team-member-4',
+  },
+  {
     name: 'Sarah Chen',
     title: 'CEO & Founder',
     bio: 'With over two decades in hospitality, Sarah is a visionary leader dedicated to innovation and guest satisfaction. Her experience at a Fortune 500 hotel chain honed her skills in scaling operations while maintaining a people-first culture, a philosophy she embeds in every RTG venture.',
@@ -37,7 +43,7 @@ export function TeamShowcase() {
             A team of industry veterans dedicated to your success.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {teamMembers.map((member) => {
             const memberImage = PlaceHolderImages.find((img) => img.id === member.id);
             return (

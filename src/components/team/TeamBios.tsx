@@ -26,6 +26,7 @@ const formSchema = z.object({
 });
 
 const initialTeamMembers = [
+  { name: 'Chip Joyner', title: 'CEO & Founder', previousExperience: '15+ years in restaurant leadership, built and scaled portfolios over $60M, including at the world\'s busiest airport. Graduate of Harvard Business School\'s OPM program.' },
   { name: 'Sarah Chen', title: 'CEO & Founder', previousExperience: '20+ years in hospitality management, former COO at a Fortune 500 hotel chain.' },
   { name: 'David Lee', title: 'Chief Technology Officer', previousExperience: 'Lead architect for a major booking platform, specialist in AI-driven guest experiences.' },
   { name: 'Maria Rodriguez', title: 'Head of Operations', previousExperience: 'Scaled a boutique restaurant group from 2 to 50 locations nationwide.' },
@@ -69,12 +70,19 @@ export function TeamBios() {
   }
 
   const getImageUrlForTeamMember = (name: string) => {
-    const staticImages: {[key: string]: string | undefined} = {
-      'Sarah Chen': PlaceHolderImages.find(img => img.id === 'team-member-1')?.imageUrl,
-      'David Lee': PlaceHolderImages.find(img => img.id === 'team-member-2')?.imageUrl,
-      'Maria Rodriguez': PlaceHolderImages.find(img => img.id === 'team-member-3')?.imageUrl,
+    const staticImage = PlaceHolderImages.find(
+      (img) => img.id === `team-member-${name.toLowerCase().replace(' ', '-')}` || img.description.includes(name)
+    );
+    if (staticImage) return staticImage.imageUrl;
+
+    const memberIdMap: { [key: string]: string } = {
+      'Sarah Chen': 'team-member-1',
+      'David Lee': 'team-member-2',
+      'Maria Rodriguez': 'team-member-3',
+      'Chip Joyner': 'team-member-4',
     };
-    return staticImages[name] || `https://picsum.photos/seed/${name.replace(/\s/g, '-')}/200/200`;
+    const memberImage = PlaceHolderImages.find(img => img.id === memberIdMap[name]);
+    return memberImage?.imageUrl || `https://picsum.photos/seed/${name.replace(/\s/g, '-')}/200/200`;
   };
 
   return (
