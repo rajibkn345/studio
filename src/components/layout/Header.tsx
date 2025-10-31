@@ -20,6 +20,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center">
+        <div className="mr-6" />
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
           {navLinks.map((link) => (
             <Link
@@ -51,7 +52,6 @@ export function Header() {
                   href="/"
                   className="flex items-center gap-2 text-lg font-semibold"
                 >
-                  RTG Resto Tech Group
                   <span className="sr-only">RTG Resto Tech Group</span>
                 </Link>
                 {navLinks.map((link) => (
