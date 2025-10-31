@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { leadershipTeam, getTeamMemberImage } from '@/lib/team';
+import { leadershipTeam } from '@/lib/team';
 
 export function TeamShowcase() {
   return (
@@ -18,22 +18,19 @@ export function TeamShowcase() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {leadershipTeam.map((member) => {
-            const memberImage = getTeamMemberImage(member.id);
-            return (
-              <Card key={member.name} className="flex flex-col text-center items-center p-6">
-                <Avatar className="h-24 w-24 mb-4">
-                  {memberImage && <AvatarImage src={memberImage.imageUrl} alt={member.name} />}
-                  <AvatarFallback>{member.name.charAt(0)}</AvatarFallback>
-                </Avatar>
-                <CardTitle>{member.name}</CardTitle>
-                <CardDescription className="mb-4">{member.title}</CardDescription>
-                <CardContent className="flex-grow">
-                  <p className="text-sm text-muted-foreground">{member.bio}</p>
-                </CardContent>
-              </Card>
-            );
-          })}
+          {leadershipTeam.map((member) => (
+            <Card key={member.name} className="flex flex-col text-center items-center p-6">
+              <Avatar className="h-24 w-24 mb-4">
+                <AvatarImage src={member.imageUrl} alt={member.name} />
+                <AvatarFallback>{member.name.charAt(0)}</AvatarFallback>
+              </Avatar>
+              <CardTitle>{member.name}</CardTitle>
+              <CardDescription className="mb-4">{member.title}</CardDescription>
+              <CardContent className="flex-grow">
+                <p className="text-sm text-muted-foreground">{member.bio}</p>
+              </CardContent>
+            </Card>
+          ))}
         </div>
         <div className="text-center mt-12">
           <Button asChild size="lg">

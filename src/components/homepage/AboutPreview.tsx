@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight, Compass, ShieldCheck, Cpu, Handshake, BarChart } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -34,7 +33,11 @@ const principles = [
 ];
 
 export function AboutPreview() {
-  const aboutImage = PlaceHolderImages.find(img => img.id === 'about-preview');
+  const aboutImage = {
+    imageUrl: 'https://images.unsplash.com/photo-1688380692117-63178554d76d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidXNpbmVzcyUyMG1lZXRpbmd8ZW58MHx8fHwxNzYxODM4MzI1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    description: 'Image for the about preview section, showing professionals in a discussion.',
+    imageHint: 'business meeting'
+  };
 
   return (
     <section id="about" className="py-16 md:py-24 bg-secondary">
@@ -55,16 +58,14 @@ export function AboutPreview() {
             </div>
           </div>
           <div className="rounded-lg overflow-hidden shadow-2xl">
-            {aboutImage && (
-              <Image
-                src={aboutImage.imageUrl}
-                alt={aboutImage.description}
-                width={800}
-                height={600}
-                className="object-cover w-full h-full"
-                data-ai-hint={aboutImage.imageHint}
-              />
-            )}
+            <Image
+              src={aboutImage.imageUrl}
+              alt={aboutImage.description}
+              width={800}
+              height={600}
+              className="object-cover w-full h-full"
+              data-ai-hint={aboutImage.imageHint}
+            />
           </div>
         </div>
 

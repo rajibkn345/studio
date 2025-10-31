@@ -1,27 +1,28 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight } from 'lucide-react';
 
 export function FranchiseSpotlight() {
-  const franchiseImage = PlaceHolderImages.find(img => img.id === 'franchise-spotlight');
+  const franchiseImage = {
+    imageUrl: 'https://images.unsplash.com/photo-1542581482-851c38ee4b94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdG9yZSUyMGZyb250fGVufDB8fHx8MTc2MTgxODIwNXww&ixlib=rb-4.1.0&q=80&w=1080',
+    description: 'Image for the franchise spotlight section, showing a successful franchise storefront.',
+    imageHint: 'store front'
+  };
 
   return (
     <section id="franchise" className="py-16 md:py-24 bg-background">
       <div className="container">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="rounded-lg overflow-hidden shadow-2xl order-last md:order-first">
-            {franchiseImage && (
-              <Image
-                src={franchiseImage.imageUrl}
-                alt={franchiseImage.description}
-                width={800}
-                height={600}
-                className="object-cover w-full h-full"
-                data-ai-hint={franchiseImage.imageHint}
-              />
-            )}
+            <Image
+              src={franchiseImage.imageUrl}
+              alt={franchiseImage.description}
+              width={800}
+              height={600}
+              className="object-cover w-full h-full"
+              data-ai-hint={franchiseImage.imageHint}
+            />
           </div>
           <div className="space-y-4">
             <h2 className="text-3xl md:text-4xl font-bold">Grow With a Proven Model</h2>

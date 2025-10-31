@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Badge } from '@/components/ui/badge';
 import { ArrowUpRight, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
@@ -13,6 +12,8 @@ const portfolioItems = [
     category: 'QSR Franchise',
     stats: ['+13.4% Same-Store Sales', '50% Lower Staff Turnover', 'Top 1% in Order Accuracy'],
     caseStudyUrl: '#success-story',
+    imageUrl: 'https://storage.googleapis.com/project-spark-b2481-avatars/b95b8744-9333-4f36-8a88-21d3a51f33f0.png',
+    imageHint: 'commercial kitchen',
   },
 ];
 
@@ -35,7 +36,6 @@ export function Portfolio() {
         >
           <CarouselContent>
             {portfolioItems.map((item) => {
-              const itemImage = PlaceHolderImages.find(img => img.id === item.id);
               const CardLinkWrapper = item.caseStudyUrl ? Link : 'div';
               
               return (
@@ -45,15 +45,13 @@ export function Portfolio() {
                       <Card className="h-full flex flex-col overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
                         <CardHeader className="p-0">
                           <div className="relative aspect-video">
-                            {itemImage && (
                                <Image
-                                 src={itemImage.imageUrl}
+                                 src={item.imageUrl}
                                  alt={item.title}
                                  fill
                                  className="object-cover"
-                                 data-ai-hint={itemImage.imageHint}
+                                 data-ai-hint={item.imageHint}
                                 />
-                            )}
                              <div className="absolute top-4 right-4">
                               <Badge variant="secondary">{item.category}</Badge>
                             </div>

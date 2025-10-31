@@ -1,23 +1,24 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function Hero() {
-  const heroImage = PlaceHolderImages.find(img => img.id === 'hero-background');
+  const heroImage = {
+    imageUrl: 'https://images.unsplash.com/photo-1623177623442-979c1e42c255?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBvZmZpY2V8ZW58MHx8fHwxNzYxNzg0NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080',
+    description: 'Background image for the hero section showing a modern office meeting.',
+    imageHint: 'modern office'
+  };
 
   return (
     <section className="relative h-[60vh] md:h-[80vh] w-full flex items-center justify-center text-white">
-      {heroImage && (
-        <Image
-          src={heroImage.imageUrl}
-          alt={heroImage.description}
-          fill
-          className="object-cover"
-          priority
-          data-ai-hint={heroImage.imageHint}
-        />
-      )}
+      <Image
+        src={heroImage.imageUrl}
+        alt={heroImage.description}
+        fill
+        className="object-cover"
+        priority
+        data-ai-hint={heroImage.imageHint}
+      />
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 container text-center space-y-6">
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight">
