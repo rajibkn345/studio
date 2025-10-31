@@ -21,9 +21,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 container text-center space-y-6">
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight">
-          Investing in Great Businesses.
-          <br />
-          Elevating Them with Technology and Experience.
+          Investing in great hospitality businesses — and elevating them through technology, experience, and operational excellence.
         </h1>
         <p className="text-lg md:text-xl text-primary-foreground/80 max-w-3xl mx-auto">
           100+ years of operational excellence meets innovation.
