@@ -29,8 +29,7 @@ const initialTeamMembers = [
   { name: 'Chip Joyner', title: 'CEO & Founder', previousExperience: '15+ years in restaurant leadership, built and scaled portfolios over $60M, including at the world\'s busiest airport. Graduate of Harvard Business School\'s OPM program.' },
   { name: 'Joseph H. Handy', title: 'Chief Development Officer', previousExperience: '20+ years of executive leadership, raised over $120M in 3 months, former CEO of Georgia Aquarium and Clearwater Marine Aquarium.' },
   { name: 'Derrick Johnson', title: 'Chief Technology & Operations Director', previousExperience: '15+ years in franchise operations for brands like Cinnaholic and Levy Restaurants, specializing in operational optimization and technology integration.' },
-  { name: 'David Lee', title: 'Chief Technology Officer', previousExperience: 'Lead architect for a major booking platform, specialist in AI-driven guest experiences.' },
-  { name: 'Maria Rodriguez', title: 'Head of Operations', previousExperience: 'Scaled a boutique restaurant group from 2 to 50 locations nationwide.' },
+  { name: 'Michael Auzenne', title: 'Chief Investment Advisor & Member Experience', previousExperience: '15+ years in investment banking, management consulting, and global restaurant leadership. Named one of QSR Magazine’s “28 Young Restaurant Leaders to Watch” (2021). Harvard Business School MBA.' },
 ];
 
 export function TeamBios() {
@@ -77,6 +76,7 @@ export function TeamBios() {
       'Chip Joyner': 'team-member-4',
       'Joseph H. Handy': 'team-member-5',
       'Derrick Johnson': 'team-member-6',
+      'Michael Auzenne': 'team-member-7',
     };
     const memberImage = PlaceHolderImages.find(img => img.id === memberIdMap[name]);
     return memberImage?.imageUrl || `https://picsum.photos/seed/${name.replace(/\s/g, '-')}/200/200`;

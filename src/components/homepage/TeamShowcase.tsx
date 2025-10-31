@@ -26,16 +26,10 @@ const teamMembers = [
     id: 'team-member-6',
   },
   {
-    name: 'David Lee',
-    title: 'Chief Technology Officer',
-    bio: "David is the architectural mind behind RTG's technological edge. As the former lead architect for a major booking platform, he excels in creating AI-driven solutions that enhance guest experiences and streamline operations, ensuring our partners stay ahead of the curve.",
-    id: 'team-member-2',
-  },
-  {
-    name: 'Maria Rodriguez',
-    title: 'Head of Operations',
-    bio: "Maria's operational acumen is unmatched. She masterfully scaled a boutique restaurant group from a handful of locations to a nationwide presence. Her expertise in process optimization and team development is crucial to the successful growth of our portfolio companies.",
-    id: 'team-member-3',
+    name: 'Michael Auzenne',
+    title: 'Chief Investment Advisor & Member Experience',
+    bio: "Mike brings a powerful combination of analytical rigor, investment expertise, and brand experience to RTG Investments. With 15+ years across investment banking and global restaurant leadership, he guides RTG’s approach to identifying and elevating high-potential hospitality brands.",
+    id: 'team-member-7',
   },
 ];
 
@@ -49,7 +43,7 @@ export function TeamShowcase() {
             A team of industry veterans dedicated to your success.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {teamMembers.map((member) => {
             const memberImage = PlaceHolderImages.find((img) => img.id === member.id);
             return (
