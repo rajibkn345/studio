@@ -42,6 +42,9 @@ export function AboutPreview() {
   return (
     <section id="about" className="py-16 md:py-24 bg-secondary">
       <div className="container space-y-16">
+        <div className="text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary">A leadership team with experience from world-class brands</h2>
+        </div>
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-6">
             <div className="space-y-3">
