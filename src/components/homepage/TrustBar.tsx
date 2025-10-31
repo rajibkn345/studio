@@ -8,6 +8,7 @@ const logos = [
   { name: 'Inspire Brands', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/4f4c9797-299f-4f24-9b16-5441a1bf9c11.svg' },
   { name: 'Cinnaholic', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/07548545-81b0-49a9-b3a6-8968988636e0.svg' },
   { name: 'Chili\'s', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/22c9535e-c22f-4a37-b4d2-f673a5a76985.svg' },
+  { name: 'Sbarro', src: 'https://storage.googleapis.com/project-spark-b2481-avatars/8f0d5111-1373-4553-9f20-f5979f40398f.svg' },
 ];
 
 export function TrustBar() {
