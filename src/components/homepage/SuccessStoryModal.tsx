@@ -122,7 +122,7 @@ export function SuccessStoryModal() {
                 <div>
                     <h3 className="text-2xl md:text-3xl font-bold mb-4">📊 The Impact</h3>
                     <p className="text-muted-foreground">
-                        Despite pandemic disruptions, GAAL achieved record-breaking operational improvement in less than two quarters. The turnaround validated RTG’s hands-on investment and operational excellence model, demonstrating how disciplined systems, data-driven decisions, and leadership alignment can transform underperforming assets into market-leading performers.
+                        Despite pandemic disruptions, this Southeastern franchisee achieved record-breaking operational improvement in less than two quarters. The turnaround validated RTG’s hands-on investment and operational excellence model, demonstrating how disciplined systems, data-driven decisions, and leadership alignment can transform underperforming assets into market-leading performers.
                     </p>
                 </div>
                 <Card className="bg-secondary">
