@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { teamMembers } from '@/lib/team';
+import { leadershipTeam } from '@/lib/team';
 
 export function TeamShowcase() {
   return (
@@ -18,7 +18,7 @@ export function TeamShowcase() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {teamMembers.map((member) => (
+          {leadershipTeam.map((member) => (
             <Card key={member.id} className="flex flex-col text-center items-center p-6">
               <Avatar className="h-24 w-24 mb-4">
                 <AvatarImage src={member.imageUrl} alt={member.name} />
