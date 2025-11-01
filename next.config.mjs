@@ -8,11 +8,11 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'cdn.worldvectorlogo.com',
+        hostname: 'images.unsplash.com',
       },
       {
         protocol: 'https',
-        hostname: 'images.unsplash.com',
+        hostname: 'cdn.worldvectorlogo.com',
       },
     ],
   },
