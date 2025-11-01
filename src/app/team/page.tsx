@@ -22,8 +22,8 @@ export default function TeamPage() {
                 <Image
                     src={member.imageUrl}
                     alt={`Portrait of ${member.name}`}
-                    fill
-                    sizes="(min-width: 1024px) 200px, 160px"
+                    width={200}
+                    height={200}
                     className="rounded-xl object-cover"
                 />
               <div className="mt-4">
