@@ -19,13 +19,12 @@ export default function TeamPage() {
         <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {teamMembers.map((member) => (
             <div key={member.id} className="text-center">
-              <div className="relative h-64 w-64 mx-auto">
+              <div className="relative h-64 w-64 mx-auto rounded-full overflow-hidden shadow-lg">
                 <Image
                     src={member.imageUrl}
                     alt={`Portrait of ${member.name}`}
-                    width={256}
-                    height={256}
-                    className="rounded-full object-cover shadow-lg"
+                    fill
+                    className="object-cover"
                 />
               </div>
               <div className="mt-4">
