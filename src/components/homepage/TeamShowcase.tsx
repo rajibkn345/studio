@@ -1,11 +1,12 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-import { Card } from '@/components/ui/card';
-import { Skeleton } from '@/components/ui/skeleton';
+import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import { teamMembers } from '@/lib/team';
 
-const blankTiles = [1, 2, 3, 4];
+const leadershipTeam = teamMembers.slice(0, 4);
 
 export function TeamShowcase() {
   return (
@@ -18,13 +19,21 @@ export function TeamShowcase() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {blankTiles.map((tile) => (
-            <Card key={tile} className="flex flex-col text-center items-center p-6">
-              <Skeleton className="h-[150px] w-[150px] rounded-full" />
-              <div className="mt-4 space-y-2">
-                <Skeleton className="h-6 w-3/4 mx-auto" />
-                <Skeleton className="h-4 w-1/2 mx-auto" />
-              </div>
+          {leadershipTeam.map((member) => (
+            <Card key={member.id} className="flex flex-col text-center items-center p-6">
+              <Image
+                src={member.imageUrl}
+                alt={`Portrait of ${member.name}`}
+                width={150}
+                height={150}
+                className="rounded-full object-cover aspect-square"
+              />
+              <CardHeader>
+                <h3 className="text-lg font-bold text-foreground">{member.name}</h3>
+              </CardHeader>
+              <CardContent>
+                <p className="text-md text-primary">{member.title}</p>
+              </CardContent>
             </Card>
           ))}
         </div>
