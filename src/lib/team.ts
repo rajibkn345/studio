@@ -5,7 +5,7 @@ export const teamMembers = [
         name: 'Chip Joyner',
         title: 'Founder and Managing Partner',
         bio: "Chip Joyner is an accomplished restaurant and QSR executive with over 15 years of leadership experience in multi-unit operations, franchise systems, and growth strategy. Known for driving profitability and operational excellence, he has partnered with national brands and private equity groups to scale portfolios and elevate franchise performance. His leadership spans from fast casual to large-scale franchise ventures, including Chick-fil-A, Starbucks, Outback, and Pei Wei through airport joint ventures at Atlanta Hartsfield-Jackson. A proven strategist and hands-on operator, Chip has directed restaurant portfolios exceeding $60 million annually and completed more than 100,000 restaurant visits, earning recognition for operational precision, team development, and sustained growth. He holds an O.P.M. from Harvard Business School and a B.A. in Philosophy from Howard University, along with certifications in multiple QSR systems including Starbucks, Burger King, Wingstop, and Taco Bell, plus ServeSafe and advanced finance training from Wharton. Committed to community and leadership, he has served as Chairman of the Atlanta-Fulton County Library System Board of Trustees, Vice Chair of the Feed the Soul Foundation, and on the Executive Committee of the Howard University Alumni Club of Atlanta.",
-        imageUrl: 'https://storage.googleapis.com/project-spark-b2481-avatars/7d89617b-232a-4348-8316-11e404b901a8.jpeg',
+        imageUrl: 'https://storage.googleapis.com/project-spark-b2481-avatars/chip-joyner.jpeg',
         imageHint: 'man professional'
     },
     {
