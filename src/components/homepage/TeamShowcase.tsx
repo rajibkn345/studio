@@ -5,7 +5,10 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { leadershipTeam } from '@/lib/team';
+import { Skeleton } from '@/components/ui/skeleton';
+
+// Placeholder data for four blank tiles
+const blankTiles = [1, 2, 3, 4];
 
 export function TeamShowcase() {
   return (
@@ -18,17 +21,16 @@ export function TeamShowcase() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {leadershipTeam.map((member) => (
-            <Card key={member.id} className="flex flex-col text-center items-center p-6">
-              <Avatar className="h-24 w-24 mb-4">
-                <AvatarImage src={member.imageUrl} alt={member.name} />
-                <AvatarFallback>{member.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
-              </Avatar>
-              <CardTitle>{member.name}</CardTitle>
-              <CardDescription className="mb-4">{member.title}</CardDescription>
-              <CardContent className="flex-grow">
-                <p className="text-sm text-muted-foreground">{member.bio}</p>
-              </CardContent>
+          {blankTiles.map((tile) => (
+            <Card key={tile} className="flex flex-col text-center items-center p-6">
+              <Skeleton className="h-24 w-24 mb-4 rounded-full" />
+              <Skeleton className="h-6 w-3/4 mb-2" />
+              <Skeleton className="h-4 w-1/2 mb-4" />
+              <div className="flex-grow space-y-2 w-full">
+                <Skeleton className="h-4 w-full" />
+                <Skeleton className="h-4 w-full" />
+                <Skeleton className="h-4 w-5/6" />
+              </div>
             </Card>
           ))}
         </div>
