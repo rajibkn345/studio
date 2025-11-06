@@ -23,6 +23,25 @@ export function TeamShowcase() {
             A team of industry veterans dedicated to your success.
           </p>
         </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {leadershipTeam.map((member) => (
+            <Card key={member.id} className="text-center flex flex-col items-center">
+              <CardContent className="pt-6">
+                <div className="relative w-[150px] h-[150px] mx-auto mb-4">
+                  <Image
+                    src={member.imageUrl}
+                    alt={`Portrait of ${member.name}`}
+                    fill
+                    sizes="150px"
+                    className="rounded-full object-cover"
+                  />
+                </div>
+                <h3 className="text-xl font-bold mb-2">{member.name}</h3>
+                <p className="text-md text-primary">{member.title}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
         <div className="text-center mt-12">
           <Button asChild size="lg">
             <Link href="/team">

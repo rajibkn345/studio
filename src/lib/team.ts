@@ -57,5 +57,3 @@ export const teamMembers = [
         imageHint: 'man professional'
     }
 ];
-
-export const leadershipTeam = [];
