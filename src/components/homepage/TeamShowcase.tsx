@@ -1,15 +1,11 @@
 'use client';
-import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import { Card } from '@/components/ui/card';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Skeleton } from '@/components/ui/skeleton';
-import { teamMembers } from '@/lib/team';
 
-const leadershipToShow = teamMembers.slice(0, 1);
-const blankTiles = [1, 2, 3];
+const blankTiles = [1, 2, 3, 4];
 
 export function TeamShowcase() {
   return (
@@ -22,16 +18,6 @@ export function TeamShowcase() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {leadershipToShow.map((member) => (
-            <Card key={member.id} className="flex flex-col text-center items-center p-6">
-              <Avatar className="h-24 w-24 mb-4">
-                <AvatarImage src={member.imageUrl} alt={member.name} />
-                <AvatarFallback>{member.name.charAt(0)}</AvatarFallback>
-              </Avatar>
-              <h3 className="font-bold text-lg">{member.name}</h3>
-              <p className="text-primary text-sm">{member.title}</p>
-            </Card>
-          ))}
           {blankTiles.map((tile) => (
             <Card key={tile} className="flex flex-col text-center items-center p-6">
               <Skeleton className="h-24 w-24 mb-4 rounded-full" />
