@@ -59,7 +59,6 @@ export const teamMembers = [
 ];
 
 export const leadershipTeam = [
-    teamMembers[0], // Chip Joyner
     teamMembers[1], // Joseph H. Handy
     teamMembers[2], // Derrick Johnson
     teamMembers[4]  // Michael Auzenne
