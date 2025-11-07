@@ -36,7 +36,7 @@ export const teamMembers = [
         id: 'team-member-7',
         name: 'Michael Auzenne',
         title: 'Senior Advisor, Governance & Strategy',
-        bio: "Mike brings a powerful combination of analytical rigor, investment expertise, and brand experience to RTG Investments. With 15+ years across investment banking and global restaurant leadership, he guides RTG’s approach to identifying and elevating high-potential hospitality brands. He holds an MBA from Harvard Business School.",
+        bio: "Michael Auzenne is a strategy and analytics executive with more than 15 years of experience in investment banking, consulting, and hospitality operations. He provides institutional oversight and analytical discipline for RTG’s investment platform.\n\nPreviously, he served as Senior Director of Brand Insights & Analytics at Inspire Brands, supporting Buffalo Wild Wings, Baskin Robbins, and International business units. Before that, he worked as a Consultant with Boston Consulting Group (BCG) and Investment Banking Associate at Bank of America Merrill Lynch, completing more than $10 billion in capital market transactions.\n\nEducation: M.B.A., Harvard Business School; B.A., Mathematical Economics, Colgate University\nAffiliations: Named one of QSR Magazine’s “28 Young Restaurant Leaders to Watch” (2021); Co-Founder, PowerUP, Atlanta-based youth mentorship nonprofit.",
         imageUrl: 'https://storage.googleapis.com/project-spark-b2481-avatars/402d3345-42f5-4a5c-897b-944357064ad7.jpeg',
         imageHint: 'man professional'
     },
