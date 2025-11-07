@@ -69,7 +69,7 @@ export function SuccessStoryModal() {
             <DialogHeader className="mb-6 text-center">
                 <Badge className="mx-auto mb-2">RTG Success Story</Badge>
                 <DialogTitle className="text-3xl md:text-4xl font-bold text-primary mt-2 text-center">Record-Setting Performance in the Wingstop Portfolio</DialogTitle>
-                 <DialogDescription className="text-lg md:text-xl font-semibold mt-2">Turning Performance Into Profit</DialogDescription>
+                 <DialogDescription className="text-lg md:text-xl font-semibold mt-2 text-center">Turning Performance Into Profit</DialogDescription>
                 <p className="text-muted-foreground mt-4 max-w-3xl mx-auto">
                     When RTG’s CEO Chip Joyner was brought in to lead operational turnaround for a multi-unit Wingstop franchise portfolio, the results quickly exceeded expectations. Under his leadership, the portfolio not only reversed performance declines but outperformed national, regional, and franchise benchmarks across every key metric.
                 </p>

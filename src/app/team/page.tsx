@@ -32,8 +32,8 @@ export default function TeamPage() {
                   />
                 </div>
                 <CardContent className="mt-4">
-                  <h3 className="text-lg font-bold text-foreground">{member.name}</h3>
-                  <p className="text-md text-primary">{member.title}</p>
+                  <h3 className="text-lg font-bold text-foreground text-center">{member.name}</h3>
+                  <p className="text-md text-primary text-center">{member.title}</p>
                 </CardContent>
               </Card>
             </Link>

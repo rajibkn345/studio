@@ -37,7 +37,7 @@ export function TeamShowcase() {
                   />
                 </div>
                 <h3 className="text-xl font-bold mb-2 text-center">{member.name}</h3>
-                <p className="text-md text-primary">{member.title}</p>
+                <p className="text-md text-primary text-center">{member.title}</p>
               </CardContent>
             </Card>
           ))}
