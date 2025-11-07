@@ -13,7 +13,7 @@ export const teamMembers = [
         name: 'Joseph H. Handy',
         title: 'Managing Director / Partner, Development & Fundraising',
         bio: "Joe is an accomplished executive with over two decades of experience driving growth and fundraising across high-profile organizations. As Chief Development Officer, he leads strategic development, brand expansion, and partner relations, guiding the company's growth through innovation and a deep commitment to community impact. He holds an Executive MBA from Kennesaw State University and is a graduate of the College of New Rochelle.",
-        imageUrl: 'https://storage.googleapis.com/project-spark-b2481-avatars/007323b7-70e0-47b2-859a-18b4561005f2.jpeg',
+        imageUrl: 'https://storage.googleapis.com/project-spark-b2481-avatars/1c9f2b3e-7a42-452f-903e-71b315c12852.jpeg',
         imageHint: 'man professional'
     },
     {
