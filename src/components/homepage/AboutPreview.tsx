@@ -58,7 +58,7 @@ export function AboutPreview() {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-6">
             <div className="text-center">
-                <h2 className="text-3xl md:text-4xl font-bold text-primary">A leadership team with experience from world-class brands</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-primary text-center">A leadership team with experience from world-class brands</h2>
             </div>
              <div className="py-6">
               <div className="flex flex-wrap justify-center gap-x-8 gap-y-6">
@@ -75,13 +75,13 @@ export function AboutPreview() {
               </div>
             </div>
             <div className="space-y-3 text-center">
-              <h2 className="text-3xl md:text-4xl font-bold text-primary">Our Mission</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-primary text-center">Our Mission</h2>
               <p className="text-lg text-muted-foreground">
                 RTG’s mission is to acquire and grow scalable restaurant and hospitality brands by blending human expertise with innovation. We empower operators with systems, insights, and leadership that drive profitability, consistency, and exceptional guest experiences.
               </p>
             </div>
             <div className="space-y-3 text-center">
-              <h2 className="text-3xl md:text-4xl font-bold text-primary">Our Vision</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-primary text-center">Our Vision</h2>
               <p className="text-lg text-muted-foreground">
                 RTG envisions a future where operational excellence and digital innovation coexist — where every brand we touch becomes smarter, stronger, and more guest-focused. Our vision is to redefine hospitality investment by uniting legacy expertise with modern intelligence to create enduring value for our partners, teams, and communities.
               </p>
@@ -100,7 +100,7 @@ export function AboutPreview() {
         </div>
 
         <div className="text-center space-y-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary">Our Core Guiding Principles</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary text-center">Our Core Guiding Principles</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Our principles are the compass that guides every decision we make, ensuring we stay true to our mission and vision.
             </p>
@@ -113,7 +113,7 @@ export function AboutPreview() {
                 <div className="p-4 bg-primary/10 rounded-full mb-4">
                   {principle.icon}
                 </div>
-                <CardTitle className="text-xl">{principle.title}</CardTitle>
+                <CardTitle className="text-xl text-center">{principle.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">{principle.description}</p>

@@ -56,8 +56,8 @@ export function InquiryForm() {
     <section id="contact" className="py-16 md:py-24 bg-secondary">
       <div className="container">
         <Card className="max-w-2xl mx-auto shadow-lg">
-          <CardHeader>
-            <CardTitle className="text-3xl">Let's Connect</CardTitle>
+          <CardHeader className="text-center">
+            <CardTitle className="text-3xl text-center">Let's Connect</CardTitle>
             <CardDescription>
               Whether you're looking to sell, partner, or franchise, we're ready to listen.
             </CardDescription>

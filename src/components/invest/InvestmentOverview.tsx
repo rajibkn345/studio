@@ -15,14 +15,14 @@ export function InvestmentOverview() {
             <div className="container grid md:grid-cols-2 gap-12 items-start">
                 <div className="space-y-8 text-center">
                     <div>
-                        <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Investment Overview</h2>
-                        <h3 className="text-2xl font-semibold mb-2">Investment Thesis</h3>
+                        <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4 text-center">Investment Overview</h2>
+                        <h3 className="text-2xl font-semibold mb-2 text-center">Investment Thesis</h3>
                         <p className="text-muted-foreground">
                             We focus on service-oriented restaurant brands with strong fundamentals, scalable operations, and loyal customer bases. By applying RTG’s proven systems, we unlock untapped profitability and expansion potential — creating above-market returns with reduced risk compared to traditional restaurant franchising.
                         </p>
                     </div>
                      <div>
-                        <h3 className="text-2xl font-semibold mb-4">Our Competitive Edge</h3>
+                        <h3 className="text-2xl font-semibold mb-4 text-center">Our Competitive Edge</h3>
                         <ul className="space-y-3">
                             {competitiveEdge.map((edge) => (
                                 <li key={edge} className="flex items-start">
@@ -35,7 +35,7 @@ export function InvestmentOverview() {
                 </div>
                 <Card className="bg-secondary">
                     <CardHeader className="text-center">
-                        <CardTitle>Fund Structure & Capital Strategy</CardTitle>
+                        <CardTitle className="text-center">Fund Structure & Capital Strategy</CardTitle>
                         <CardDescription>Designed for Limited Partners seeking exposure to hospitality growth with professional management and aligned incentives.</CardDescription>
                     </CardHeader>
                     <CardContent className="space-y-4">

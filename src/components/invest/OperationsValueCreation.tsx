@@ -29,7 +29,7 @@ export function OperationsValueCreation() {
         <section className="py-16 md:py-24 bg-background">
             <div className="container">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold text-primary">Operations & Value Creation</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-primary text-center">Operations & Value Creation</h2>
                     <p className="text-lg text-muted-foreground mt-4 max-w-3xl mx-auto">
                         RTG’s operating playbook is built around efficiency, data, and leadership. Our approach transforms local success stories into sustainable, multi-market franchise platforms.
                     </p>
@@ -43,7 +43,7 @@ export function OperationsValueCreation() {
                                     <div className="p-4 bg-primary/10 rounded-full mb-4">
                                         {lever.icon}
                                     </div>
-                                    <CardTitle className="text-xl">{lever.title}</CardTitle>
+                                    <CardTitle className="text-xl text-center">{lever.title}</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-muted-foreground">{lever.description}</p>

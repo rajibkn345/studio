@@ -5,7 +5,7 @@ export function CtaBanner() {
   return (
     <section className="bg-primary text-primary-foreground">
       <div className="container py-16 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold">To build the most trusted platform for transforming hospitality brands into lasting, technology-driven enterprises.</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center">To build the most trusted platform for transforming hospitality brands into lasting, technology-driven enterprises.</h2>
         <p className="mt-4 max-w-2xl mx-auto text-primary-foreground/80">
           We specialize in seamless transitions that honor your hard work and ensure your company's future is in capable hands.
         </p>

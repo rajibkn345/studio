@@ -19,7 +19,7 @@ export function Hero() {
       />
       <div className="absolute inset-0 bg-black/60" />
       <div className="relative z-10 container text-center space-y-6">
-        <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight">
+        <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight text-center">
           Invest in the Future of Hospitality
         </h1>
         <p className="text-lg md:text-xl text-primary-foreground/80 max-w-3xl mx-auto">

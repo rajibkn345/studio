@@ -22,7 +22,7 @@ export function AcquisitionPlan() {
     <section className="py-16 md:py-24 bg-secondary">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary">Acquisition Plan</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary text-center">Acquisition Plan</h2>
           <p className="text-lg text-muted-foreground mt-4 max-w-3xl mx-auto">
             We acquire and integrate emerging restaurant brands (3–15 units) that are operationally strong but need strategic capital and systems to scale. Each brand enters RTG’s shared-service platform — receiving centralized support in operations, marketing, finance, and technology.
           </p>
@@ -38,7 +38,7 @@ export function AcquisitionPlan() {
                     </div>
                 </CardHeader>
                 <CardContent>
-                    <CardTitle className="text-xl">{area.title}</CardTitle>
+                    <CardTitle className="text-xl text-center">{area.title}</CardTitle>
                 </CardContent>
               </Card>
             ))}

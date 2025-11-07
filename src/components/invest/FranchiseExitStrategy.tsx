@@ -21,7 +21,7 @@ export function FranchiseExitStrategy() {
         <section className="py-16 md:py-24 bg-secondary">
             <div className="container">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold text-primary">Franchise & Exit Strategy</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-primary text-center">Franchise & Exit Strategy</h2>
                     <p className="text-lg text-muted-foreground mt-4 max-w-3xl mx-auto">
                         RTG’s franchise platform creates a capital-light path to expansion and recurring revenue. Once stabilized, brands generate royalty income, technology subscriptions, and marketing fees — producing predictable cash flow and premium valuations.
                     </p>
@@ -35,7 +35,7 @@ export function FranchiseExitStrategy() {
                                     <div className="p-4 bg-primary/10 rounded-full mb-4">
                                         {option.icon}
                                     </div>
-                                    <CardTitle className="text-xl">{option.title}</CardTitle>
+                                    <CardTitle className="text-xl text-center">{option.title}</CardTitle>
                                 </CardHeader>
                             </Card>
                         ))}

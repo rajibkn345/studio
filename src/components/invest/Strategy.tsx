@@ -24,7 +24,7 @@ export function Strategy() {
     <section className="py-16 md:py-24 bg-secondary">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary">Our Strategy: The Roll-Up & Franchise Growth Model</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary text-center">Our Strategy: The Roll-Up & Franchise Growth Model</h2>
           <p className="text-lg text-muted-foreground mt-4 max-w-3xl mx-auto">
             RTG’s platform unites technology, operations, and franchising to unlock value across multiple brands. We don’t just own restaurants — we elevate them into scalable, high-performing franchise systems that generate recurring cash flow and strong exit potential.
           </p>
@@ -38,7 +38,7 @@ export function Strategy() {
                 </div>
               </CardHeader>
               <CardContent>
-                <CardTitle className="mb-2">{point.title}</CardTitle>
+                <CardTitle className="mb-2 text-center">{point.title}</CardTitle>
                 <p className="text-muted-foreground">{point.description}</p>
               </CardContent>
             </Card>

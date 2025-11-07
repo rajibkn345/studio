@@ -23,7 +23,7 @@ export function Portfolio() {
     <section id="portfolio" className="py-16 md:py-24 bg-secondary">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary">Our Success Stories</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary text-center">Our Success Stories</h2>
           <p className="text-lg text-muted-foreground mt-2 max-w-2xl mx-auto">
             We partner with exceptional companies and empower them to reach new heights.
           </p>
@@ -58,7 +58,7 @@ export function Portfolio() {
                               </div>
                             </CardHeader>
                             <CardContent className="p-6 flex-grow">
-                              <CardTitle className="text-xl mb-2">{item.title}</CardTitle>
+                              <CardTitle className="text-xl mb-2 text-center">{item.title}</CardTitle>
                               <CardDescription>Key outcomes from our partnership:</CardDescription>
                               <ul className="mt-4 space-y-2 text-sm text-foreground">
                                 {item.stats.map(stat => (

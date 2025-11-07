@@ -16,7 +16,7 @@ export function Footer() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 md:col-span-2 gap-8 text-sm">
             <div>
-              <h4 className="font-semibold mb-3">Quick Links</h4>
+              <h4 className="font-semibold mb-3 text-center">Quick Links</h4>
               <ul className="space-y-2">
                 <li><Link href="/#about" className="text-muted-foreground hover:text-primary">About Us</Link></li>
                 <li><Link href="/#portfolio" className="text-muted-foreground hover:text-primary">Our Portfolio</Link></li>
@@ -25,7 +25,7 @@ export function Footer() {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-3">Opportunities</h4>
+              <h4 className="font-semibold mb-3 text-center">Opportunities</h4>
               <ul className="space-y-2">
                 <li><Link href="/#contact" className="text-muted-foreground hover:text-primary">Sell Your Business</Link></li>
                 <li><Link href="/#franchise" className="text-muted-foreground hover:text-primary">Franchise With Us</Link></li>
@@ -33,7 +33,7 @@ export function Footer() {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-3">Legal</h4>
+              <h4 className="font-semibold mb-3 text-center">Legal</h4>
               <ul className="space-y-2">
                 <li><Link href="#" className="text-muted-foreground hover:text-primary">Privacy Policy</Link></li>
                 <li><Link href="#" className="text-muted-foreground hover:text-primary">Terms of Service</Link></li>
@@ -41,7 +41,7 @@ export function Footer() {
             </div>
           </div>
           <div className="flex flex-col gap-4">
-            <h4 className="font-semibold">Stay Connected</h4>
+            <h4 className="font-semibold text-center">Stay Connected</h4>
             <p className="text-sm text-muted-foreground">Get the latest news and insights from RTG.</p>
             <form className="flex gap-2">
               <Input type="email" placeholder="Enter your email" className="bg-background" />

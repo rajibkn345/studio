@@ -68,7 +68,7 @@ export function SuccessStoryModal() {
         <div className="p-6">
             <DialogHeader className="mb-6 text-center">
                 <Badge className="mx-auto mb-2">RTG Success Story</Badge>
-                <DialogTitle className="text-3xl md:text-4xl font-bold text-primary mt-2">Record-Setting Performance in the Wingstop Portfolio</DialogTitle>
+                <DialogTitle className="text-3xl md:text-4xl font-bold text-primary mt-2 text-center">Record-Setting Performance in the Wingstop Portfolio</DialogTitle>
                  <DialogDescription className="text-lg md:text-xl font-semibold mt-2">Turning Performance Into Profit</DialogDescription>
                 <p className="text-muted-foreground mt-4 max-w-3xl mx-auto">
                     When RTG’s CEO Chip Joyner was brought in to lead operational turnaround for a multi-unit Wingstop franchise portfolio, the results quickly exceeded expectations. Under his leadership, the portfolio not only reversed performance declines but outperformed national, regional, and franchise benchmarks across every key metric.
@@ -111,7 +111,7 @@ export function SuccessStoryModal() {
                                     {driver.icon}
                                 </div>
                             </div>
-                            <h4 className="text-xl font-bold">{driver.title}</h4>
+                            <h4 className="text-xl font-bold text-center">{driver.title}</h4>
                             <p className="text-muted-foreground mt-2">{driver.description}</p>
                         </Card>
                     ))}
@@ -120,7 +120,7 @@ export function SuccessStoryModal() {
 
             <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div className="text-center">
-                    <h3 className="text-2xl md:text-3xl font-bold mb-4">📊 The Impact</h3>
+                    <h3 className="text-2xl md:text-3xl font-bold mb-4 text-center">📊 The Impact</h3>
                     <p className="text-muted-foreground">
                         In the face of pandemic headwinds, a multi-state Southeastern franchisee delivered record operational improvement in less than two quarters—a testament to RTG’s hands-on investment model. The outcome showcased how disciplined execution, data intelligence, and unified leadership can convert struggling assets into high-performing market leaders.
                     </p>

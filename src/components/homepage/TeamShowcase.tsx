@@ -18,7 +18,7 @@ export function TeamShowcase() {
     <section id="team" className="py-16 md:py-24 bg-secondary">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary">Meet Our Leadership</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary text-center">Meet Our Leadership</h2>
           <p className="text-lg text-muted-foreground mt-2 max-w-2xl mx-auto">
             A team of industry veterans dedicated to your success.
           </p>
@@ -36,7 +36,7 @@ export function TeamShowcase() {
                     className="rounded-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-bold mb-2">{member.name}</h3>
+                <h3 className="text-xl font-bold mb-2 text-center">{member.name}</h3>
                 <p className="text-md text-primary">{member.title}</p>
               </CardContent>
             </Card>

@@ -10,7 +10,7 @@ export default function TeamPage() {
     <div className="bg-background">
       <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-primary">
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-primary text-center">
             Our Team
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-xl text-muted-foreground">
