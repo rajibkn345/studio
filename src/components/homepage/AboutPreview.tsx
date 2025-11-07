@@ -39,6 +39,7 @@ const brands = [
   { name: 'Wingstop', logoUrl: 'https://cdn.worldvectorlogo.com/logos/wingstop-logo.svg' },
   { name: 'Boston Consulting Group', logoUrl: 'https://cdn.worldvectorlogo.com/logos/boston-consulting-group.svg' },
   { name: 'Bank of America', logoUrl: 'https://cdn.worldvectorlogo.com/logos/bank-of-america-2.svg' },
+  { name: 'Burger King', logoUrl: 'https://cdn.worldvectorlogo.com/logos/burger-king-2020.svg' },
 ];
 
 
