@@ -32,6 +32,16 @@ const principles = [
   },
 ];
 
+const brands = [
+  { name: 'Chick-fil-A', logoUrl: 'https://cdn.worldvectorlogo.com/logos/chick-fil-a-1.svg' },
+  { name: 'Starbucks', logoUrl: 'https://cdn.worldvectorlogo.com/logos/starbucks.svg' },
+  { name: 'Inspire Brands', logoUrl: 'https://cdn.worldvectorlogo.com/logos/inspire-brands.svg' },
+  { name: 'Wingstop', logoUrl: 'https://cdn.worldvectorlogo.com/logos/wingstop-logo.svg' },
+  { name: 'Boston Consulting Group', logoUrl: 'https://cdn.worldvectorlogo.com/logos/boston-consulting-group.svg' },
+  { name: 'Bank of America', logoUrl: 'https://cdn.worldvectorlogo.com/logos/bank-of-america-2.svg' },
+];
+
+
 export function AboutPreview() {
   const aboutImage = {
     imageUrl: 'https://images.unsplash.com/photo-1688380692117-63178554d76d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidXNpbmVzcyUyMG1lZXRpbmd8ZW58MHx8fHwxNzYxODM4MzI1fDA&ixlib=rb-4.1.0&q=80&w=1080',
@@ -46,6 +56,20 @@ export function AboutPreview() {
           <div className="space-y-6">
             <div className="text-center md:text-left">
                 <h2 className="text-3xl md:text-4xl font-bold text-primary">A leadership team with experience from world-class brands</h2>
+            </div>
+             <div className="py-6">
+              <div className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-6">
+                {brands.map((brand) => (
+                  <div key={brand.name} className="relative h-10 w-28" title={brand.name}>
+                    <Image
+                      src={brand.logoUrl}
+                      alt={`${brand.name} logo`}
+                      fill
+                      className="object-contain filter grayscale transition-all duration-300 hover:filter-none"
+                    />
+                  </div>
+                ))}
+              </div>
             </div>
             <div className="space-y-3">
               <h2 className="text-3xl md:text-4xl font-bold text-primary">Our Mission</h2>
