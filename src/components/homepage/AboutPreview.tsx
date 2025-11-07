@@ -38,6 +38,8 @@ const brands = [
   { name: 'Inspire Brands', logoUrl: 'https://cdn.worldvectorlogo.com/logos/inspire-brands.svg' },
   { name: 'Wingstop', logoUrl: 'https://cdn.worldvectorlogo.com/logos/wingstop-logo.svg' },
   { name: 'Burger King', logoUrl: 'https://cdn.worldvectorlogo.com/logos/burger-king-2020.svg' },
+  { name: 'US Foods', logoUrl: 'https://cdn.worldvectorlogo.com/logos/us-foods-1.svg' },
+  { name: 'Sodexo', logoUrl: 'https://cdn.worldvectorlogo.com/logos/sodexo-2.svg' },
   { name: 'Boston Consulting Group', logoUrl: 'https://cdn.worldvectorlogo.com/logos/boston-consulting-group.svg' },
   { name: 'Bank of America', logoUrl: 'https://cdn.worldvectorlogo.com/logos/bank-of-america-2.svg' },
 ];
