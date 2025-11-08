@@ -3,8 +3,11 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
+import placeholderImages from '@/lib/placeholder-images.json';
 
 export function TeamShowcase() {
+  const { "team-showcase": teamImage } = placeholderImages;
+
   return (
     <section id="team" className="py-16 md:py-24 bg-secondary">
       <div className="container">
@@ -17,11 +20,11 @@ export function TeamShowcase() {
 
         <div className="relative w-full max-w-4xl mx-auto aspect-video rounded-lg overflow-hidden shadow-2xl mb-12">
           <Image
-            src="https://picsum.photos/seed/team-photo/1200/600"
-            alt="Leadership team collage"
+            src={teamImage.imageUrl}
+            alt={teamImage.description}
             fill
             className="object-cover"
-            data-ai-hint="team business"
+            data-ai-hint={teamImage.imageHint}
           />
         </div>
 
