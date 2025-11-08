@@ -1,7 +1,7 @@
 {
   "team-showcase": {
-    "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwYnVzaW5lc3N8ZW58MHx8fHwxNzE3MTc0OTc5fDA&ixlib=rb-4.0.3&q=80&w=1080",
-    "description": "A group of professionals collaborating in a modern office setting.",
-    "imageHint": "team business"
+    "imageUrl": "https://storage.googleapis.com/project-spark-b2481-avatars/a08404a1-871d-400a-97d5-d86f91f7401c.png",
+    "description": "A portrait of a leader from the company.",
+    "imageHint": "professional man"
   }
 }
