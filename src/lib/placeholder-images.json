@@ -2,6 +2,8 @@
   "team-showcase": {
     "imageUrl": "https://storage.googleapis.com/project-spark-b2481-avatars/a08404a1-871d-400a-97d5-d86f91f7401c.png",
     "description": "A portrait of a leader from the company.",
-    "imageHint": "professional man"
+    "imageHint": "professional man",
+    "width": 1200,
+    "height": 675
   }
 }
