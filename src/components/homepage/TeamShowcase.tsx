@@ -11,6 +11,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import { Card } from '@/components/ui/card';
 
 type ImageData = {
   [key: string]: {
@@ -44,9 +45,9 @@ export function TeamShowcase() {
             const bioSnippet = member.bio.split('\n\n')[0].substring(0, 150) + '...';
 
             return (
-              <AccordionItem value={member.id} key={member.id} className="border-none">
-                 <div className="bg-background rounded-lg shadow-md transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 h-full flex flex-col">
-                    <AccordionTrigger className="text-xl font-bold text-primary p-6 text-center hover:no-underline flex flex-col items-center">
+              <AccordionItem value={member.id} key={member.id} asChild>
+                 <Card className="flex flex-col overflow-hidden transition-all duration-300 hover:shadow-2xl">
+                    <AccordionTrigger className="text-xl font-bold text-primary p-6 text-center hover:no-underline flex flex-col items-center data-[state=open]:border-b">
                         <div className="w-full">
                             <h3 className="text-xl font-bold text-primary">{member.name}</h3>
                             <p className="text-sm text-muted-foreground mt-1">{member.title}</p>
@@ -58,9 +59,9 @@ export function TeamShowcase() {
                                 <Image
                                 src={memberImage.imageUrl}
                                 alt={`Portrait of ${member.name}`}
-                                fill
+                                width={memberImage.width}
+                                height={memberImage.height}
                                 className="object-cover"
-                                sizes="200px"
                                 />
                             )}
                         </div>
@@ -73,7 +74,7 @@ export function TeamShowcase() {
                             </Link>
                         </Button>
                     </AccordionContent>
-                </div>
+                </Card>
               </AccordionItem>
             );
           })}
