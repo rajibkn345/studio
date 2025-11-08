@@ -25,8 +25,6 @@ type ImageData = {
 
 export function TeamShowcase() {
   const images = imageData as ImageData;
-
-  // Limit to the first 4 team members for the showcase
   const showcasedMembers = teamMembers.slice(0, 4);
 
   return (
@@ -53,19 +51,19 @@ export function TeamShowcase() {
                             <p className="text-sm text-muted-foreground mt-1">{member.title}</p>
                         </div>
                     </AccordionTrigger>
-                    <AccordionContent className="p-6 pt-0 text-center flex-grow flex flex-col">
-                        <div className="mb-4 flex justify-center">
-                            {memberImage && (
-                                <Image
-                                src={memberImage.imageUrl}
-                                alt={`Portrait of ${member.name}`}
-                                width={200}
-                                height={200}
-                                className="object-cover rounded-full aspect-square"
-                                />
-                            )}
-                        </div>
-                        <p className="text-sm text-muted-foreground mb-4 text-left flex-grow">
+                    <AccordionContent className="p-6 pt-4 text-center">
+                        {memberImage && (
+                          <div className="mb-4 flex justify-center">
+                              <Image
+                              src={memberImage.imageUrl}
+                              alt={`Portrait of ${member.name}`}
+                              width={120}
+                              height={120}
+                              className="object-cover rounded-full"
+                              />
+                          </div>
+                        )}
+                        <p className="text-sm text-muted-foreground mb-4 text-left">
                             {bioSnippet}
                         </p>
                         <Button asChild size="sm" variant="link" className="mt-auto">
