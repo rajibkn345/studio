@@ -18,7 +18,7 @@ export function TeamShowcase() {
           </p>
         </div>
 
-        <div className="relative w-full max-w-4xl mx-auto aspect-video rounded-lg overflow-hidden shadow-2xl mb-12">
+        <div className="relative w-full max-w-4xl h-[400px] md:h-[500px] mx-auto rounded-lg overflow-hidden shadow-2xl mb-12">
           <Image
             src={teamImage.imageUrl}
             alt={teamImage.description}
