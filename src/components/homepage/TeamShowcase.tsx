@@ -54,14 +54,14 @@ export function TeamShowcase() {
                         </div>
                     </AccordionTrigger>
                     <AccordionContent className="p-6 pt-0 text-center flex-grow flex flex-col">
-                        <div className="relative aspect-square w-full max-w-[200px] mx-auto mb-4 rounded-full overflow-hidden">
+                        <div className="mb-4 flex justify-center">
                             {memberImage && (
                                 <Image
                                 src={memberImage.imageUrl}
                                 alt={`Portrait of ${member.name}`}
-                                width={memberImage.width}
-                                height={memberImage.height}
-                                className="object-cover"
+                                width={200}
+                                height={200}
+                                className="object-cover rounded-full aspect-square"
                                 />
                             )}
                         </div>
