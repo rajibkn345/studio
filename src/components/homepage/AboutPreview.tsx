@@ -31,6 +31,10 @@ const brands = [
     name: 'Red Robin',
     logoUrl: 'https://cdn.worldvectorlogo.com/logos/red-robin-gourmet-burgers-1.svg',
   },
+  {
+    name: "Chili's",
+    logoUrl: 'https://cdn.worldvectorlogo.com/logos/chilis-1.svg',
+  },
 ];
 
 export default function AboutPreview() {
