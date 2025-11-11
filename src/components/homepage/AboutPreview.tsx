@@ -53,6 +53,7 @@ const brands = [
   { name: 'Feed the Soul Foundation', logoUrl: 'https://storage.googleapis.com/stedi-assets/feed-the-soul-foundation-logo.png' },
   { name: 'Barcelona Wine Bar', logoUrl: 'https://images.squarespace-cdn.com/content/v1/5e38c9d8063d8f5d60544ca7/1581442385023-F2ZKV4CANWC25A5A4V59/BWB_logo-01.png?format=1500w' },
   { name: 'Levy', logoUrl: 'https://cdn.worldvectorlogo.com/logos/levy-restaurants.svg' },
+  { name: 'Sbarro', logoUrl: 'https://cdn.worldvectorlogo.com/logos/sbarro-1.svg' },
 ];
 
 export function AboutPreview() {
