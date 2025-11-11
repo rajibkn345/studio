@@ -52,7 +52,7 @@ export const teamMembers = [
     {
         id: 'jenn-allstun',
         name: 'Jenn Allstun',
-        title: 'Senior Advisor Store Design',
+        title: 'Senior Advisor, Store Design',
         bio: "Jenn Allstun is an accomplished professional with extensive experience in store design. As Senior Advisor, she brings a wealth of knowledge to create inviting and functional spaces that enhance the customer experience and reinforce brand identity. Her expertise ensures that every location is designed for operational efficiency and aesthetic appeal.",
         imageId: 'jenn-allstun'
     }
