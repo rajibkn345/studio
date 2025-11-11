@@ -25,9 +25,9 @@ export function InvestmentOverview() {
                         <h3 className="text-2xl font-semibold mb-4 text-center">Our Competitive Edge</h3>
                         <ul className="space-y-3">
                             {competitiveEdge.map((edge) => (
-                                <li key={edge} className="flex items-start">
-                                    <CheckCircle className="h-5 w-5 text-primary mr-3 mt-1 shrink-0" />
-                                    <span className="text-muted-foreground">{edge}</span>
+                                <li key={edge} className="flex items-start gap-3">
+                                    <CheckCircle className="h-5 w-5 text-primary mt-1 shrink-0" />
+                                    <span className="text-muted-foreground text-left">{edge}</span>
                                 </li>
                             ))}
                         </ul>
