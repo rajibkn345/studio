@@ -43,6 +43,7 @@ const brands = [
   { name: 'Sodexo', logoUrl: 'https://cdn.worldvectorlogo.com/logos/sodexo-2.svg' },
   { name: 'HMSHost', logoUrl: 'https://cdn.worldvectorlogo.com/logos/hms-host.svg' },
   { name: 'Cinnabon', logoUrl: 'https://cdn.worldvectorlogo.com/logos/cinnabon-2.svg' },
+  { name: 'Cinnaholic', logoUrl: 'https://cdn.worldvectorlogo.com/logos/cinnaholic.svg' },
   { name: 'Taco Bell', logoUrl: 'https://cdn.worldvectorlogo.com/logos/taco-bell-1.svg' },
   { name: 'Chilis', logoUrl: 'https://cdn.worldvectorlogo.com/logos/chili-s-1.svg' },
   { name: 'Boston Consulting Group', logoUrl: 'https://cdn.worldvectorlogo.com/logos/boston-consulting-group.svg' },
