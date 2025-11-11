@@ -34,7 +34,7 @@ const brands = [
   {
     name: "Chili's",
     logoUrl: 'https://cdn.worldvectorlogo.com/logos/chilis-1.svg',
-  },
+  }
 ];
 
 export default function AboutPreview() {
