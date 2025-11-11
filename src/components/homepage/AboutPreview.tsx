@@ -43,6 +43,7 @@ const brands = [
   { name: 'HMSHost', logoUrl: 'https://cdn.worldvectorlogo.com/logos/hms-host.svg' },
   { name: 'Cinnabon', logoUrl: 'https://cdn.worldvectorlogo.com/logos/cinnabon-2.svg' },
   { name: 'Taco Bell', logoUrl: 'https://cdn.worldvectorlogo.com/logos/taco-bell-1.svg' },
+  { name: 'Chilis', logoUrl: 'https://cdn.worldvectorlogo.com/logos/chili-s-1.svg' },
   { name: 'Boston Consulting Group', logoUrl: 'https://cdn.worldvectorlogo.com/logos/boston-consulting-group.svg' },
   { name: 'Bank of America', logoUrl: 'https://cdn.worldvectorlogo.com/logos/bank-of-america-2.svg' },
 ];
@@ -86,7 +87,7 @@ export function AboutPreview() {
             <div className="space-y-3 text-center">
               <h2 className="text-3xl md:text-4xl font-bold text-primary text-center">Our Vision</h2>
               <p className="text-lg text-muted-foreground">
-                RTG envisions a future where operational excellence and digital innovation coexist — where every brand we touch becomes smarter, stronger, and more guest-focused. Our vision is to redefine hospitality investment by uniting legacy expertise with modern intelligence to create enduring value for our partners, teams, and communities.
+                RTG envisions a future where operational excellence and digital innovation coexist — where every brand we touch becomes smarter, stronger, and more guest-focused. Our vision is to unite legacy expertise with modern intelligence to create enduring value for our partners, teams, and communities.
               </p>
             </div>
           </div>
