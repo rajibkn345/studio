@@ -34,7 +34,23 @@ const brands = [
   {
     name: "Chili's",
     logoUrl: 'https://cdn.worldvectorlogo.com/logos/chilis-1.svg',
-  }
+  },
+  {
+    name: 'Sbarro',
+    logoUrl: 'https://cdn.worldvectorlogo.com/logos/sbarro-1.svg',
+  },
+  {
+    name: 'Cinnabon',
+    logoUrl: 'https://cdn.worldvectorlogo.com/logos/cinnabon-3.svg',
+  },
+  {
+    name: 'Au Bon Pain',
+    logoUrl: 'https://cdn.worldvectorlogo.com/logos/au-bon-pain.svg',
+  },
+  {
+    name: 'Cinnaholic',
+    logoUrl: 'https://cdn.worldvectorlogo.com/logos/cinnaholic-1.svg',
+  },
 ];
 
 export default function AboutPreview() {
