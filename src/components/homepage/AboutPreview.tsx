@@ -47,6 +47,7 @@ const brands = [
   { name: 'Boston Consulting Group', logoUrl: 'https://cdn.worldvectorlogo.com/logos/boston-consulting-group.svg' },
   { name: 'Bank of America', logoUrl: 'https://cdn.worldvectorlogo.com/logos/bank-of-america-2.svg' },
   { name: 'Chow Baby', logoUrl: 'https://storage.googleapis.com/stedi-assets/chow-baby-logo.png' },
+  { name: 'Waffle House', logoUrl: 'https://cdn.worldvectorlogo.com/logos/waffle-house.svg' },
 ];
 
 
