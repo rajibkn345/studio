@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Badge } from '@/components/ui/badge';
@@ -12,8 +11,6 @@ const portfolioItems = [
     title: 'Wingstop Portfolio Turnaround',
     category: 'QSR Franchise',
     stats: ['+13.4% Same-Store Sales', '50% Lower Staff Turnover', 'Top 1% in Order Accuracy'],
-    imageUrl: 'https://cdn.worldvectorlogo.com/logos/wingstop-logo.svg',
-    imageHint: 'Wingstop logo',
     caseStudy: <SuccessStoryModal />,
   },
 ];
@@ -43,22 +40,13 @@ export function Portfolio() {
                     <DialogTrigger asChild>
                       <div className="p-1 h-full">
                           <Card className="h-full flex flex-col overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 cursor-pointer">
-                            <CardHeader className="p-0">
-                              <div className="relative aspect-video bg-green-600 p-8">
-                                  <Image
-                                    src={item.imageUrl}
-                                    alt={item.title}
-                                    fill
-                                    className="object-contain"
-                                    data-ai-hint={item.imageHint}
-                                  />
-                                <div className="absolute top-4 right-4">
-                                  <Badge variant="secondary">{item.category}</Badge>
-                                </div>
+                            <CardHeader className="p-6 relative">
+                              <CardTitle className="text-xl mb-2 text-center">{item.title}</CardTitle>
+                              <div className="absolute top-4 right-4">
+                                <Badge variant="secondary">{item.category}</Badge>
                               </div>
                             </CardHeader>
-                            <CardContent className="p-6 flex-grow">
-                              <CardTitle className="text-xl mb-2 text-center">{item.title}</CardTitle>
+                            <CardContent className="p-6 flex-grow pt-0">
                               <CardDescription>Key outcomes from our partnership:</CardDescription>
                               <ul className="mt-4 space-y-2 text-sm text-foreground">
                                 {item.stats.map(stat => (
