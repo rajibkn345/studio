@@ -40,6 +40,7 @@ const brands = [
   { name: 'Burger King', logoUrl: 'https://cdn.worldvectorlogo.com/logos/burger-king-2020.svg' },
   { name: 'US Foods', logoUrl: 'https://cdn.worldvectorlogo.com/logos/us-foods-1.svg' },
   { name: 'Sodexo', logoUrl: 'https://cdn.worldvectorlogo.com/logos/sodexo-2.svg' },
+  { name: 'HMSHost', logoUrl: 'https://cdn.worldvectorlogo.com/logos/hms-host.svg' },
   { name: 'Boston Consulting Group', logoUrl: 'https://cdn.worldvectorlogo.com/logos/boston-consulting-group.svg' },
   { name: 'Bank of America', logoUrl: 'https://cdn.worldvectorlogo.com/logos/bank-of-america-2.svg' },
 ];
