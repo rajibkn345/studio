@@ -63,6 +63,18 @@ const brands = [
     name: 'Wells Fargo',
     logoUrl: 'https://cdn.worldvectorlogo.com/logos/wells-fargo-1.svg',
   },
+  {
+    name: 'Waffle House',
+    logoUrl: 'https://cdn.worldvectorlogo.com/logos/waffle-house.svg',
+  },
+  {
+    name: 'Bank of America',
+    logoUrl: 'https://cdn.worldvectorlogo.com/logos/bank-of-america-5.svg',
+  },
+  {
+    name: 'Boston Consulting Group',
+    logoUrl: 'https://cdn.worldvectorlogo.com/logos/boston-consulting-group.svg',
+  },
 ];
 
 export default function AboutPreview() {
