@@ -74,9 +74,9 @@ export function AboutPreview() {
                 <h2 className="text-3xl md:text-4xl font-bold text-primary text-center">A leadership team with experience from world-class brands</h2>
             </div>
              <div className="py-6">
-              <div className="flex flex-wrap justify-center gap-x-8 gap-y-6">
+              <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-6">
                 {brands.map((brand) => (
-                  <div key={brand.name} className="relative h-10 w-28" title={brand.name}>
+                  <div key={brand.name} className="relative h-12 w-28 flex items-center justify-center" title={brand.name}>
                     <Image
                       src={brand.logoUrl}
                       alt={`${brand.name} logo`}
