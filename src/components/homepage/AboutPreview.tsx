@@ -75,7 +75,7 @@ const brands = [
   {
     name: 'Boston Consulting Group',
     logoUrl: 'https://cdn.worldvectorlogo.com/logos/boston-consulting-group.svg',
-  }
+  },
 ];
 
 export default function AboutPreview() {
