@@ -48,14 +48,13 @@ export function TeamShowcase() {
                 <Card className="flex flex-col overflow-hidden transition-all duration-300 hover:shadow-2xl">
                   <CollapsibleTrigger asChild>
                       <div
-                        className="p-6 cursor-pointer"
+                        className="p-6 cursor-pointer group"
                       >
                         <div className="flex justify-between items-center">
                           <div className="w-full">
                             <h3 className="text-xl font-bold text-primary">{member.name}</h3>
                             <p className="text-sm text-muted-foreground mt-1">{member.title}</p>
                           </div>
-                          {/* The trigger itself will handle open/closed state, so we can use a placeholder or style based on state */}
                           <div className="group-data-[state=open]:hidden"><Plus className="h-5 w-5" /></div>
                           <div className="group-data-[state=closed]:hidden"><Minus className="h-5 w-5" /></div>
                         </div>
