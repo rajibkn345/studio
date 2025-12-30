@@ -44,18 +44,18 @@ export function TeamShowcase() {
             return (
               <Collapsible key={member.id} asChild>
                 <Card className="flex flex-col overflow-hidden transition-all duration-300 hover:shadow-2xl">
-                    <div className="p-6">
-                      <CollapsibleTrigger className="w-full text-left group flex justify-between items-center">
-                          <div>
-                            <h3 className="text-xl font-bold text-primary">{member.name}</h3>
-                            <p className="text-sm text-muted-foreground mt-1">{member.title}</p>
-                          </div>
-                          <div className="flex-shrink-0">
-                            <Plus className="h-5 w-5 block group-data-[state=open]:hidden" />
-                            <Minus className="h-5 w-5 hidden group-data-[state=open]:block" />
-                          </div>
-                      </CollapsibleTrigger>
-                    </div>
+                  <div className="p-6">
+                    <CollapsibleTrigger className="w-full text-left group flex justify-between items-center">
+                        <div>
+                          <h3 className="text-xl font-bold text-primary">{member.name}</h3>
+                          <p className="text-sm text-muted-foreground mt-1">{member.title}</p>
+                        </div>
+                        <div className="flex-shrink-0">
+                          <Plus className="h-5 w-5 block group-data-[state=open]:hidden" />
+                          <Minus className="h-5 w-5 hidden group-data-[state=open]:block" />
+                        </div>
+                    </CollapsibleTrigger>
+                  </div>
                   
                   <CollapsibleContent className="transition-all duration-500 ease-in-out overflow-hidden data-[state=closed]:animate-collapsible-up data-[state=open]:animate-collapsible-down">
                     <div className="px-6 pb-6 pt-0 text-center">
@@ -68,7 +68,6 @@ export function TeamShowcase() {
                               width={120}
                               height={120}
                               className="object-cover rounded-full"
-                              unoptimized
                             />
                           </div>
                         )}
