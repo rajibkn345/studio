@@ -1,5 +1,4 @@
 'use client';
-import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
@@ -7,7 +6,6 @@ import { ArrowRight, Plus, Minus } from 'lucide-react';
 import { teamMembers } from '@/lib/team';
 import imageData from '@/lib/placeholder-images.json';
 import { Card } from '@/components/ui/card';
-import { cn } from '@/lib/utils';
 import {
   Collapsible,
   CollapsibleContent,
@@ -46,20 +44,18 @@ export function TeamShowcase() {
             return (
               <Collapsible key={member.id} asChild>
                 <Card className="flex flex-col overflow-hidden transition-all duration-300 hover:shadow-2xl">
-                  <CollapsibleTrigger asChild>
-                      <div
-                        className="p-6 cursor-pointer group"
-                      >
+                    <div className="p-6 group">
+                      <CollapsibleTrigger className="w-full">
                         <div className="flex justify-between items-center">
-                          <div className="w-full">
-                            <h3 className="text-xl font-bold text-primary">{member.name}</h3>
-                            <p className="text-sm text-muted-foreground mt-1">{member.title}</p>
-                          </div>
-                          <div className="group-data-[state=open]:hidden"><Plus className="h-5 w-5" /></div>
-                          <div className="group-data-[state=closed]:hidden"><Minus className="h-5 w-5" /></div>
+                            <div className="text-left">
+                              <h3 className="text-xl font-bold text-primary">{member.name}</h3>
+                              <p className="text-sm text-muted-foreground mt-1">{member.title}</p>
+                            </div>
+                            <div className="group-data-[state=open]:hidden"><Plus className="h-5 w-5" /></div>
+                            <div className="group-data-[state=closed]:hidden"><Minus className="h-5 w-5" /></div>
                         </div>
-                      </div>
-                  </CollapsibleTrigger>
+                      </CollapsibleTrigger>
+                    </div>
                   
                   <CollapsibleContent className="transition-all duration-500 ease-in-out overflow-hidden data-[state=closed]:animate-collapsible-up data-[state=open]:animate-collapsible-down">
                     <div className="px-6 pb-6 pt-0 text-center">
