@@ -6,75 +6,67 @@ import Link from 'next/link';
 const brands = [
   {
     name: 'Starbucks',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/starbucks.svg',
+    logoUrl: '/logos/Starbucks Logo.png',
   },
   {
     name: 'Chick-fil-A',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/chick-fil-a-1.svg',
+    logoUrl: '/logos/Chick Fil A Logo.png',
   },
   {
     name: 'Wingstop',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/wingstop.svg',
+    logoUrl: '/logos/Wing Stop Logo.png',
   },
   {
     name: 'Taco Bell',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/taco-bell-5.svg',
+    logoUrl: '/logos/Taco Bell Logo.png',
   },
   {
     name: 'HMSHost',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/hmshost.svg',
+    logoUrl: '/logos/HMS Host Logo.png',
   },
   {
     name: 'Burger King',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/burger-king-4.svg',
-  },
-  {
-    name: 'Red Robin',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/red-robin-gourmet-burgers-1.svg',
+    logoUrl: '/logos/Burger-King-Logo-1999-1536x864.jpg',
   },
   {
     name: "Chili's",
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/chilis-1.svg',
+    logoUrl: '/logos/Chilis Logo.png',
   },
   {
     name: 'Cinnabon',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/cinnabon-3.svg',
+    logoUrl: '/logos/Cinnabon Logo.png',
   },
   {
     name: 'Au Bon Pain',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/au-bon-pain.svg',
+    logoUrl: '/logos/Au Bon Pain Logo.png',
   },
   {
     name: 'Cinnaholic',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/cinnaholic-1.svg',
-  },
-  {
-    name: 'Sodexo',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/sodexo-2.svg',
+    logoUrl: '/logos/Cinnaholic Logo.jpg',
   },
   {
     name: 'US Foods',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/us-foods-1.svg',
+    logoUrl: '/logos/US Foods Logo.png',
   },
   {
     name: 'Levy',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/levy-restaurants.svg',
-  },
-  {
-    name: 'Wells Fargo',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/wells-fargo-1.svg',
+    logoUrl: '/logos/Levy Logo.png',
   },
   {
     name: 'Waffle House',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/waffle-house.svg',
-  },
-  {
-    name: 'Bank of America',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/bank-of-america-5.svg',
+    logoUrl: '/logos/Waffle_House_Logo.svg.png',
   },
   {
     name: 'Boston Consulting Group',
-    logoUrl: 'https://cdn.worldvectorlogo.com/logos/boston-consulting-group.svg',
+    logoUrl: '/logos/BCG Logo.png',
+  },
+  {
+    name: 'Sky Zone',
+    logoUrl: '/logos/Sky Zone Logo.png',
+  },
+  {
+    name: 'Sbarros',
+    logoUrl: '/logos/Sbarros Logo.png',
   },
 ];
 

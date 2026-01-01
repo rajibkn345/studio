@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 
 export function FranchiseSpotlight() {
   const franchiseImage = {
-    imageUrl: 'https://storage.googleapis.com/project-spark-b2481-local-dev-assets/0e93a02c-4b6a-49a2-9a99-49330836c2f5.png',
+    imageUrl: '/chow-baby.jpg',
     description: 'A bustling restaurant interior with patrons dining.',
     imageHint: 'restaurant interior'
   };

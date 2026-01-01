@@ -23,14 +23,14 @@ export default function TeamPage() {
           {teamMembers.map((member) => (
             <Link href={`/team/${member.id}`} key={member.id} className="group">
               <Card className="text-center flex flex-col items-center p-6 border shadow-sm h-full transition-all duration-300 group-hover:shadow-2xl group-hover:-translate-y-1">
-                <div className="relative w-36 h-36 mb-4">
+                <div className="relative w-36 h-36  mb-4 ">
                   {member.image && (
                     <Image
                       src={member.image}
                       alt={member.name}
                       width={144}
                       height={144}
-                      className="rounded-full object-cover"
+                      className="rounded-full w-full h-full object-cover"
                     />
                   )}
                 </div>

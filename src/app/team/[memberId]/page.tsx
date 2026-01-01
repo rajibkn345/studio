@@ -1,12 +1,14 @@
 
 'use client';
 
+import { use } from 'react';
 import { teamMembers } from '@/lib/team';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
-export default function TeamMemberPage({ params }: { params: { memberId: string } }) {
-  const member = teamMembers.find((m) => m.id === params.memberId);
+export default function TeamMemberPage({ params }: { params: Promise<{ memberId: string }> }) {
+  const { memberId } = use(params);
+  const member = teamMembers.find((m) => m.id === memberId);
 
   if (!member) {
     notFound();
