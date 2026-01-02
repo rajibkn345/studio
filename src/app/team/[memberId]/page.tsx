@@ -30,7 +30,7 @@ export default function TeamMemberPage({ params }: { params: Promise<{ memberId:
                     alt={member.name}
                     width={192}
                     height={192}
-                    className="rounded-full object-cover"
+                    className="rounded-full w-full h-full object-cover"
                     priority
                   />
                 )}
